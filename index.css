@@ -1,0 +1,33 @@
+body {
+    background: black !important;
+}
+
+.header{
+    background: #121212;
+    padding: 5px 10px 5px 20px;
+}
+
+.text__header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin: 0px;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.clear__border {
+    border: none !important;
+}
+
+.title__evento {
+    background: #c20d19 !important;
+    color: white !important;
+}
+
+.btn__color {
+    background: #c20d19 !important;
+    color: white !important;
+}
+
