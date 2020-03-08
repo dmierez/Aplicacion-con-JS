@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="aling-middle header">
-        <p class="text__header">Tus habilidades en un twitter pitch</p>              
+        <p class="text__header text-center">Tu proyecto en un Twitter Pitch</p>              
     </nav>
 
     <div class="container">
@@ -18,14 +18,14 @@
             <div class="col-md-4">
                 <div class="card clear__border">
                     <div class="card-header text-center title__evento">
-                        <h4>Véndete como el mejor</h4>
+                        <h4>Véndeme tu proyecto</h4>
                     </div>
                     <form id="evento-form" class="card-body">
                         <div class="form-group">
-                            <input type="text" id="nombre" placeholder="Tu nombre" class="form-control">
+                            <input type="text" id="nombre" maxlength="40" minlength="1" placeholder="Tu nombre" class="form-control">
                         </div>
                         <div class="form-group">
-                            <textarea id="pitch" placeholder="Twitter pitch"  rows="4" cols="50" class="form-control"></textarea>
+                            <textarea id="pitch" placeholder="Twitter Pitch" maxlength="144" minlength="1" rows="4" cols="50" class="form-control"></textarea>
                         </div>
                         <input type="submit" value="Agregarme" class="btn btn-block btn__color">
                     </form>
