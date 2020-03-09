@@ -12,7 +12,7 @@ class Nueva_Interfaz {
         elementoHtml.innerHTML = `
             <div class="card text-left mb-4 pl-2">
                 <div class="card-body">
-                    Soy <strong>${_NuevoEventoProblema.Línea}</strong>
+                    <strong>${_NuevoEventoProblema.Línea}</strong>
                     <strong>- </strong> ${_NuevoEventoProblema.Evento}
                     <br>
                     <a href="#" class="btn btn-danger ml-4 mt-4" name="delete">Borrar</a>        
